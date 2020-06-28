@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #9A8C98;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+
+    background-color: #4A4E69;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+nav {
+    padding: 1em;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Merriweather', serif;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+
+    padding: 1em;
+    color: #e0d8de;
+    transition: 0.8s;
+}
+nav a:hover {
+    font-size: 1em;
+    color: #e0d8de;
+    transition: 0.8s;
+}
+nav a:nth-child(2) {
+    display: none;
+}
+
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.postform {
+    margin-top: 5em;
+    width: 50vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+textarea {
+    resize: none;
+    outline: none;
+    border: none;
+    opacity: 0.8;
+    background-color: transparent;
+    border-bottom: #F2E9E4 solid 0.1vh;
+
+    height: 8vh;
+    width: 50vw;
+
+    padding: 0.5em;
+
+    font-family: 'Noto Serif', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.01em;
+    color: #22223B;
+}
+.post {
+    font-size: 1em;
+}
+
+.post, .delete {
+    margin-top: 1vh;
+    padding: 1vh 2vw 1vh 2vw;
+    background: #4A4E69;
+    border: none;
+    border-radius: 1em;
+    opacity: 0.8;
+
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-family: 'Montserrat', sans-serif;
+    color: #C9ADA7;
+}
+
+.delete {
+    font-size: 0.8em;
+}
+.post-wrapper {
+    background-color: #F2E9E4;
+    margin: 1vh 1vw;
+    padding: 3vh 2vw;
+    border-radius: 2em;
+    width: 70%;
+}
+.username {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+    color: #6A6262;
+}
+.date {
+    font-family: 'Merriweather', serif;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    color: #22223B;
+}
+.prevpost {
+    font-family: 'Noto Serif', serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.01em;
+    color: #22223B;
+
+    margin-bottom: 1vh;
+    margin-top: 1em;
+    padding-bottom: 0.8vh;
+    padding-top: 0.8vh;
+
+    border-top: #C9ADA7 solid 0.1vh;
+    border-bottom: #C9ADA7 solid 0.1vh;
+}
+.delete-form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-end;
+}
