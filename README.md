@@ -1,7 +1,7 @@
 # seppuku
 yes.. seppuku. and no - i am not a weeb. 
 
-- the database was created using phpmyadmin that came along with xampp -
+. the database was created using phpmyadmin that came along with xampp .
     
 everything inserted within the database (as well as its' creation) was done through sql queries.
 let me write them out so it could be copy pasted at a later date: 
@@ -22,4 +22,4 @@ let me write them out so it could be copy pasted at a later date:
     message text NOT NULL
   );
   
-  - the passwords were hashed, because.. well.. security matters, right?
+. the passwords were hashed, because.. well.. security matters, right? .
